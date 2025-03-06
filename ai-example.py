@@ -4,7 +4,7 @@ import gymnasium as gym
 from datetime import datetime, timedelta
 import numpy as np
 import time
-from tensorflow.keras.callbacks import TensorBoard
+from tensorflow.python.keras.callbacks import TensorBoard
 import argparse
 
 import octobot_commons.symbols as symbols
